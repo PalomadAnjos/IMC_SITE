@@ -8,13 +8,13 @@
     <p>
         <script>
             function calcular(peso, altura) {
-                return peso / (altura ** 2);
+                return peso/(altura ** 2);
             }
             alert("clique em ok para começar");
             let nome = prompt("qual seu nome?");
             let peso = prompt(nome + ",qual o seu peso?");
             let altura = prompt(nome + ",qual a sua altura?");
-            let càlculo = calcular(peso, altura);
+            let calculo = calcular(peso, altura);
             let texto = ", deu IMC è: ";
             let imc = calculo.toFIxed(2);
             document.write(nome.italics() + texto.bold() + imc.fontcolor("blue"));
